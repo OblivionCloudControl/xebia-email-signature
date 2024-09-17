@@ -127,7 +127,7 @@
                   font-style: normal;
                   margin: 0.1px;
                 ">
-                {{ data["formatted_phone"] | e}}
+                <a style="color: #5a5a5a;" href="tel:{{ data["formatted_phone"] | e}}">{{ data["formatted_phone"] | e}}</a>
               </p>
             </td>
           </tr>
